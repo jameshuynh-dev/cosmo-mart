@@ -358,7 +358,7 @@ function ChatWidget() {
       >
         <img
           src="/gleb.png"
-          className="absolute -top-16 left-6 h-20 w-auto z-10 pointer-events-none"
+          className="absolute -top-16 left-6 h-20 w-auto object-contain z-10 pointer-events-none"
         />
         💬 Ask Gleb
       </button>
@@ -366,11 +366,11 @@ function ChatWidget() {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex h-[100dvh] w-full flex-col overflow-hidden bg-bg sm:inset-auto sm:bottom-6 sm:right-6 sm:h-[32rem] sm:w-[22rem] sm:max-w-[90vw] sm:rounded-2xl sm:border-3 sm:border-ink sm:shadow-hard">
-      <div className="relative flex shrink-0 items-center justify-between border-b-3 border-ink bg-lavender px-4 py-3 sm:rounded-t-2xl">
+    <div className="fixed bottom-6 right-6 flex h-[32rem] w-[22rem] max-w-[90vw] flex-col rounded-2xl border-3 border-ink bg-bg shadow-hard">
+      <div className="relative flex items-center justify-between overflow-visible rounded-t-2xl border-b-3 border-ink bg-lavender px-4 py-3">
         <img
           src="/gleb.png"
-          className="absolute -top-16 right-16 h-24 w-auto z-20 pointer-events-none"
+          className="absolute -top-16 right-16 h-24 w-auto object-contain z-20 pointer-events-none"
         />
         <div>
           <p className="font-black text-ink">Gleb</p>
@@ -425,7 +425,7 @@ function ChatWidget() {
 
       <form
         onSubmit={handleSubmit}
-        className="flex shrink-0 gap-2 border-t-3 border-ink p-3"
+        className="flex gap-2 border-t-3 border-ink p-3"
       >
         <input
           value={input}
