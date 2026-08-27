@@ -431,7 +431,7 @@ function ChatWidget() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Ask about a product..."
-          className="flex-1 rounded-xl border-3 border-ink bg-white px-3 py-2 text-sm font-medium text-ink outline-none"
+          className="flex-1 rounded-xl border-3 border-ink bg-white px-3 py-2 text-[16px] font-medium text-ink outline-none sm:text-sm"
         />
         <button
           type="submit"
