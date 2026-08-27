@@ -4,6 +4,7 @@ Welcome to **Cosmo Mart**! This interactive web storefront represents a surreal 
 
 The project features **Gleb**—an underpaid, mildly exhausted alien customer service representative powered by an in-memory **RAG (Retrieval-Augmented Generation)** architecture.
 
+🛸ACCESS THE DEMO HERE 🛸 https://cosmo-mart-alpha.vercel.app/
 ---
 
 ## 💡 Origin Story: From Customer Support Insights to Code
@@ -44,3 +45,8 @@ Cosmo Mart and Gleb were born as a full-stack demo to showcase this architecture
 ### **AI-Assisted Development Workflow**
 * **Claude Code:** Agentic code generation, project scaffolding, and iterative file edits.
 * **Gemini:** Code architecture cross-verification, rapid technical research, and asset generation.
+
+### **My Socials**
+* LinkedIn: https://www.linkedin.com/in/james-huynh-ai/
+* Resume Site: https://jameshuynh-dev.github.io/site/
+* Github: https://github.com/jameshuynh-dev
