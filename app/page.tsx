@@ -112,7 +112,7 @@ function ProjectInfo() {
 
       <InfoCard
         color="bg-yellow"
-        title="🚀 Cosmo Mart — Interdimensional Superstore & AI Customer Service"
+        title="🚀 Cosmo Mart, an Interdimensional Superstore & AI Customer Service"
       >
         <p>
           Welcome to Cosmo Mart! This interactive web storefront represents a
@@ -120,7 +120,7 @@ function ProjectInfo() {
           to humans and aliens alike.
         </p>
         <p>
-          The project features Gleb&mdash;an underpaid, mildly exhausted
+          The project features Gleb! An underpaid, mildly exhausted
           alien customer service representative powered by an in-memory RAG
           (Retrieval-Augmented Generation) architecture.
         </p>
