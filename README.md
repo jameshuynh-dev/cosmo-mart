@@ -11,7 +11,7 @@ The project features **Gleb**, an underpaid, mildly exhausted alien customer ser
 
 A few months ago, a friend’s sister described her workflow at T-Mobile. She explained how an internal AI-powered assistant listened to customer calls, searched company databases, and surfaced accurate policy options in real-time to help representatives answer queries.
 
-Fascinated by the technology, I dove into *AI Engineering* by Chip Huyen and researched foundation models, vector math, and practical AI engineering techniques. I realized I could replicate this exact enterprise workflow using **RAG**—a technique that connects LLMs to outside knowledge bases to ground responses in verified company facts. 
+Fascinated by the technology, I dove into *AI Engineering* by Chip Huyen and researched foundation models, vector math, and practical AI engineering techniques. I realized I could replicate this exact enterprise workflow using **Retrieval-Augmented Generation (RAG)** a technique that connects LLMs to outside knowledge bases to ground responses in verified company facts. 
 
 Cosmo Mart and Gleb were born as a full-stack demo to showcase this architecture in action!
 
