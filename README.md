@@ -1,8 +1,8 @@
-# 🚀 Cosmo Mart — Interdimensional Superstore & AI Customer Service
+# 🚀 Cosmo Mart | Interdimensional Superstore & AI Customer Service
 
 Welcome to **Cosmo Mart**! This interactive web storefront represents a surreal interdimensional superstore selling mildly dangerous items to humans and aliens alike. 
 
-The project features **Gleb**—an underpaid, mildly exhausted alien customer service representative powered by an in-memory **RAG (Retrieval-Augmented Generation)** architecture.
+The project features **Gleb**, an underpaid, mildly exhausted alien customer service representative powered by an in-memory **RAG (Retrieval-Augmented Generation)** architecture.
 
 🛸ACCESS THE DEMO HERE 🛸 https://cosmo-mart-alpha.vercel.app/
 ---
