@@ -366,8 +366,8 @@ function ChatWidget() {
   }
 
   return (
-    <div className="fixed bottom-6 right-6 flex h-[32rem] w-[22rem] max-w-[90vw] flex-col rounded-2xl border-3 border-ink bg-bg shadow-hard">
-      <div className="relative flex items-center justify-between rounded-t-2xl border-b-3 border-ink bg-lavender px-4 py-3">
+    <div className="fixed inset-0 z-50 flex h-[100dvh] w-full flex-col overflow-hidden bg-bg sm:inset-auto sm:bottom-6 sm:right-6 sm:h-[32rem] sm:w-[22rem] sm:max-w-[90vw] sm:rounded-2xl sm:border-3 sm:border-ink sm:shadow-hard">
+      <div className="relative flex shrink-0 items-center justify-between border-b-3 border-ink bg-lavender px-4 py-3 sm:rounded-t-2xl">
         <img
           src="/gleb.png"
           className="absolute -top-16 right-16 h-24 w-auto z-20 pointer-events-none"
@@ -425,11 +425,12 @@ function ChatWidget() {
 
       <form
         onSubmit={handleSubmit}
-        className="flex gap-2 border-t-3 border-ink p-3"
+        className="flex shrink-0 gap-2 border-t-3 border-ink p-3"
       >
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onFocus={(e) => e.currentTarget.focus({ preventScroll: true })}
           placeholder="Ask about a product..."
           className="flex-1 rounded-xl border-3 border-ink bg-white px-3 py-2 text-[16px] font-medium text-ink outline-none sm:text-sm"
         />
