@@ -106,7 +106,7 @@ function ProjectInfo() {
           PROJECT INFORMATION
         </h1>
         <p className="mt-4 max-w-2xl text-lg font-medium text-white">
-          Cosmo Mart — Interdimensional Superstore &amp; AI Customer Service
+          Cosmo Mart | Interdimensional Superstore &amp; AI Customer Service
         </p>
       </header>
 
@@ -142,7 +142,7 @@ function ProjectInfo() {
           Chip Huyen and researched foundation models, vector math, and
           practical AI engineering techniques. I realized I could replicate
           this exact enterprise workflow using RAG (Retrieval-Augmented
-          Generation)&mdash;a technique that connects LLMs to outside
+          Generation) a technique that connects LLMs to outside
           knowledge bases to ground responses in verified company facts.
         </p>
         <p>
