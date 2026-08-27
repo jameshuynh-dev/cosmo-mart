@@ -112,7 +112,7 @@ function ProjectInfo() {
 
       <InfoCard
         color="bg-yellow"
-        title="🚀 Cosmo Mart, an Interdimensional Superstore & AI Customer Service"
+        title="🚀 Cosmo Mart: An Interdimensional Superstore & AI Customer Service"
       >
         <p>
           Welcome to Cosmo Mart! This interactive web storefront represents a
