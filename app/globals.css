@@ -34,3 +34,61 @@ body {
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
+
+.neon-sign {
+  font-family: var(--font-neon), "Arial Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.neon-letter {
+  display: inline-block;
+  animation: neon-flicker 4s infinite alternate;
+}
+
+.neon-blue {
+  color: #7fd8ff;
+  text-shadow:
+    0 0 4px #d6f6ff,
+    0 0 10px #4fc3f7,
+    0 0 20px #2196f3,
+    0 0 40px #0d47a1,
+    0 0 80px #0d47a1;
+}
+
+.neon-red {
+  color: #ff9fb0;
+  text-shadow:
+    0 0 4px #ffe1e6,
+    0 0 10px #ff4d6d,
+    0 0 20px #ff0033,
+    0 0 40px #b3001b,
+    0 0 80px #b3001b;
+}
+
+.neon-yellow {
+  color: #fff9c4;
+  text-shadow:
+    0 0 4px #fffde7,
+    0 0 10px #ffee58,
+    0 0 20px #ffd600,
+    0 0 40px #ff8f00,
+    0 0 80px #ff8f00;
+}
+
+@keyframes neon-flicker {
+  0%,
+  17%,
+  19%,
+  21%,
+  56%,
+  58%,
+  100% {
+    opacity: 1;
+  }
+  18%,
+  20%,
+  57% {
+    opacity: 0.6;
+  }
+}

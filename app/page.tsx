@@ -15,6 +15,37 @@ const CARD_COLOR_CLASSES: Record<(typeof CARD_COLORS)[number], string> = {
   yellow: "bg-yellow",
 };
 
+const NEON_LOGO_LETTERS: { char: string; color: "blue" | "red" | "yellow" | null }[] = [
+  { char: "C", color: "blue" },
+  { char: "O", color: "red" },
+  { char: "S", color: "blue" },
+  { char: "M", color: "red" },
+  { char: "O", color: "yellow" },
+  { char: " ", color: null },
+  { char: "M", color: "red" },
+  { char: "A", color: "yellow" },
+  { char: "R", color: "blue" },
+  { char: "T", color: "yellow" },
+];
+
+function NeonLogo() {
+  return (
+    <h1 className="neon-sign inline-block text-4xl tracking-wide sm:text-5xl">
+      {NEON_LOGO_LETTERS.map((letter, i) =>
+        letter.color ? (
+          <span key={i} className={`neon-letter neon-${letter.color}`}>
+            {letter.char}
+          </span>
+        ) : (
+          <span key={i} className="inline-block w-3 sm:w-5">
+            {letter.char}
+          </span>
+        )
+      )}
+    </h1>
+  );
+}
+
 const NAV_BUTTON_BASE =
   "inline-block rounded-xl border-3 border-ink px-4 py-2 text-sm font-black text-ink shadow-hard transition-transform hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none sm:text-base";
 
@@ -260,9 +291,7 @@ function Storefront() {
     <main className="mx-auto max-w-7xl px-6 py-16 sm:px-10">
       <header className="mb-12">
         <div className="flex flex-wrap items-center gap-3">
-          <h1 className="inline-block rotate-[-1deg] border-3 border-ink bg-yellow px-6 py-3 text-4xl font-black tracking-tight text-ink shadow-hard sm:text-5xl">
-            COSMO MART
-          </h1>
+          <NeonLogo />
           <span className="text-sm font-bold italic text-white/70">
             by James Huynh
           </span>
