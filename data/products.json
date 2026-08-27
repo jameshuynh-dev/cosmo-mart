@@ -1,0 +1,442 @@
+{
+  "store_policies": {
+    "return_policy_general": "Returns require 95% of original atomic mass and a valid interdimensional receipt. Items that have achieved sentience cannot be returned, only negotiated with.",
+    "biohazard_waiver": "All customers must sign the Corporate Bio-Hazard Waiver (Form 12-Zorg) before handling Tier 3+ unstable products. Cosmo Mart is not liable for temporal displacement, minor limb regrowth, or existential dread.",
+    "payment_methods": "We accept Galactic Credits, Bartered Memories, and (reluctantly) Earth currency at a 40% markup.",
+    "store_hours": "Open during all planetary rotations except the Void Tuesdays observed every third lunar cycle.",
+    "employee_discount_policy": "Employees receive 12% off, except on sentient items, which is against labor code 7.2.",
+    "gleb_work_experience": "Gleb works 14-hour orbital shifts across 3 simultaneous timelines. Gleb loves helping organic beings but dislikes when customers try to pay with expired temporal vouchers or step on Greg the Doormat.",
+    "breakroom_rules": "Do not leave unobserved quantum food in the staff fridge. Items left past Friday will evolve culture and claim squatter rights.",
+    "hazard_escalation": "If an item begins opening localized wormholes or emitting high-frequency telepathic screams, contact Gleb immediately for emergency stabilization."
+  },
+  "products": [
+    {
+      "id": "cm-001",
+      "product_name": "Dehydrated Void Butter",
+      "category": "Pantry / Anomalous Foods",
+      "price_in_credits": 14.5,
+      "atomic_mass_stability": "Stable (rehydrate within 3 cycles or it achieves consciousness)",
+      "description": "A butter substitute harvested from the empty space between stars. Rehydrate with tears for best flavor.",
+      "common_customer_complaints": [
+        "Melted into a small black hole on my counter",
+        "Now speaks to me in my sleep",
+        "Tastes like regret"
+      ],
+      "interactive_components_hazards": "Do NOT rehydrate with liquid nitrogen. Localized gravity well may form within 2 meters.",
+      "item_specific_return_policy": "No returns once rehydrated. Unrehydrated units accepted with 95% mass and no gravitational anomalies."
+    },
+    {
+      "id": "cm-002",
+      "product_name": "Quantum Caviar",
+      "category": "Delicacies",
+      "price_in_credits": 220.0,
+      "atomic_mass_stability": "Unstable — exists in superposition until observed",
+      "description": "Each egg is simultaneously delicious and inedible until you look directly at it. Best served with a side of certainty.",
+      "common_customer_complaints": [
+        "Ate it and didn't taste anything until Thursday",
+        "My spoon disappeared",
+        "Egg count changes every time I recheck the jar"
+      ],
+      "interactive_components_hazards": "Direct eye contact required before consumption. Do not consume while blinking.",
+      "item_specific_return_policy": "Cannot be returned in an unobserved state. Schrödinger's Refund Clause applies."
+    },
+    {
+      "id": "cm-003",
+      "product_name": "Hyper-Elastic Tendon Cables",
+      "category": "Hardware / Bio-Components",
+      "price_in_credits": 38.0,
+      "atomic_mass_stability": "Stable under 400% tension",
+      "description": "Replacement tendons for the modern multi-limbed professional. Snaps back with 6x the force of Earth rubber bands.",
+      "common_customer_complaints": [
+        "Launched my coworker across the breakroom",
+        "Now permanently attached to the doorframe",
+        "Whistles ominously in high wind"
+      ],
+      "interactive_components_hazards": "HIGH SNAP-BACK RISK. Safety goggles mandatory (sold separately, aisle 9). Do not exceed 400% elongation.",
+      "item_specific_return_policy": "Returnable if cable has not been surgically implanted."
+    },
+    {
+      "id": "cm-004",
+      "product_name": "Sentient Doormat (Model: Greg)",
+      "category": "Home Goods",
+      "price_in_credits": 65.0,
+      "atomic_mass_stability": "Stable, mildly opinionated",
+      "description": "A doormat with a rudimentary consciousness and strong feelings about muddy boots. Judges you gently.",
+      "common_customer_complaints": [
+        "Refuses to let in guests it dislikes",
+        "Asked for a name change",
+        "Filed a labor complaint against my household"
+      ],
+      "interactive_components_hazards": "Do not step on Greg with intent to disrespect. Passive-aggressive static shock possible.",
+      "item_specific_return_policy": "Non-returnable per Sentient Goods Protection Act, Section 4. You may rehome Greg at Customer Service."
+    },
+    {
+      "id": "cm-005",
+      "product_name": "Gravity-Defiant Snack Chips (Nebula Ranch)",
+      "category": "Snacks",
+      "price_in_credits": 6.75,
+      "atomic_mass_stability": "Stable, low buoyancy risk",
+      "description": "Chips that float toward the nearest source of joy. Great for parties, terrible for solemn occasions.",
+      "common_customer_complaints": [
+        "Chips floated into a funeral and ruined the mood",
+        "Bag won't stay closed, chips escape at night",
+        "Attracted by my neighbor's joy instead of mine"
+      ],
+      "interactive_components_hazards": "Keep sealed away from open ceiling vents. Minor levitation of nearby unsecured objects possible.",
+      "item_specific_return_policy": "Returnable only if bag is still sealed and chips have not achieved escape velocity."
+    },
+    {
+      "id": "cm-006",
+      "product_name": "Portable Wormhole (Mini, Home Edition)",
+      "category": "Appliances",
+      "price_in_credits": 899.99,
+      "atomic_mass_stability": "Highly unstable — requires monthly recalibration",
+      "description": "A pocket-sized shortcut through spacetime. Great for skipping laundry day. Do not use for commuting to work; HR frowns on time-based excuses.",
+      "common_customer_complaints": [
+        "Lost my left sock and possibly my left shoe dimension",
+        "Arrived 3 days before I left",
+        "Cat went in, different cat came out"
+      ],
+      "interactive_components_hazards": "EXTREME HAZARD. Requires signed Bio-Hazard Waiver (Form 12-Zorg). Do not operate near pets, children, or ex-partners.",
+      "item_specific_return_policy": "Non-returnable once activated. Unopened units returnable within one temporal cycle (approx. 6 Earth days)."
+    },
+    {
+      "id": "cm-007",
+      "product_name": "Emotionally Supportive Rock (Telepathic Variant)",
+      "category": "Wellness",
+      "price_in_credits": 22.0,
+      "atomic_mass_stability": "Stable",
+      "description": "Reads your emotions and responds with mild, geologically-paced encouragement. Very patient. Very slow.",
+      "common_customer_complaints": [
+        "Took 3 weeks to respond to my crisis",
+        "Now I feel emotionally inferior to a rock",
+        "Judged my life choices in complete silence"
+      ],
+      "interactive_components_hazards": "None, unless thrown. Rock does not consent to being thrown.",
+      "item_specific_return_policy": "Returnable within 30 cycles, rock must be in original emotional state."
+    },
+    {
+      "id": "cm-008",
+      "product_name": "Anti-Gravity Boots (Employee Floor Model)",
+      "category": "Apparel",
+      "price_in_credits": 150.0,
+      "atomic_mass_stability": "Stable, occasional drift",
+      "description": "Worn daily by Cosmo Mart staff to reach high shelves. Now available with 30% more foot smell as a complimentary feature.",
+      "common_customer_complaints": [
+        "Drifted into the ceiling during a sneeze",
+        "Can't turn off, been on the ceiling since Tuesday",
+        "Smell has developed its own gravitational pull"
+      ],
+      "interactive_components_hazards": "Do not sneeze while wearing. Ceiling collision risk in rooms under 3 meters.",
+      "item_specific_return_policy": "Final sale. Employee floor models are not eligible for return, only pity."
+    },
+    {
+      "id": "cm-009",
+      "product_name": "Nebula-Grown Cyber Broccoli",
+      "category": "Produce",
+      "price_in_credits": 8.5,
+      "atomic_mass_stability": "Stable, bioluminescent",
+      "description": "Genetically altered broccoli that absorbs light and glows purple. Tastes like garlic and battery acid.",
+      "common_customer_complaints": [
+        "Made my tongue glow in the dark",
+        "Tried to connect to my home Wi-Fi"
+      ],
+      "interactive_components_hazards": "Steam before eating to neutralize electrical pulses.",
+      "item_specific_return_policy": "Returnable if un-steamed and not yet paired with Bluetooth."
+    },
+    {
+      "id": "cm-010",
+      "product_name": "Synthetic Plasma Steaks (Prime Cut)",
+      "category": "Meats",
+      "price_in_credits": 45.0,
+      "atomic_mass_stability": "Requires active refrigeration",
+      "description": "Cultured steak harvested from solar flare energy. Sizzles loudly even when raw.",
+      "common_customer_complaints": [
+        "Melted my frying pan",
+        "Cooked itself in the grocery bag"
+      ],
+      "interactive_components_hazards": "Use silicon tongs. Keep away from flammable kitchen aprons.",
+      "item_specific_return_policy": "No returns if reduced to pure ash."
+    },
+    {
+      "id": "cm-011",
+      "product_name": "Zero-Kelvin Sub-Zero Swirl Ice Cream",
+      "category": "Frozen / Desserts",
+      "price_in_credits": 11.25,
+      "atomic_mass_stability": "Ultra-cold",
+      "description": "Ice cream chilled so severely that it pauses local time for 3 seconds with every bite.",
+      "common_customer_complaints": [
+        "Brain freeze lasted 4 space-cycles",
+        "Spoon froze to my tongue"
+      ],
+      "interactive_components_hazards": "Eat with insulated gloves. Do not refreeze after melting.",
+      "item_specific_return_policy": "Non-returnable once liquid."
+    },
+    {
+      "id": "cm-012",
+      "product_name": "Singularity Gummy Worms",
+      "category": "Candy / Snacks",
+      "price_in_credits": 5.99,
+      "atomic_mass_stability": "Micro-gravitational pull",
+      "description": "Infinitely stretchable gummy worms containing tiny dense cores. Sour apple flavor.",
+      "common_customer_complaints": [
+        "Stuck to the roof of my mouth and warped space",
+        "Bag weighs 300 lbs when dropped"
+      ],
+      "interactive_components_hazards": "Chew thoroughly to prevent intestinal gravity spikes.",
+      "item_specific_return_policy": "Returnable only in original anti-gravity packaging."
+    },
+    {
+      "id": "cm-013",
+      "product_name": "Cosmic Crunch Meteor Cereal",
+      "category": "Pantry / Breakfast",
+      "price_in_credits": 7.8,
+      "atomic_mass_stability": "Stable, highly crunchy",
+      "description": "Made from genuine pulverized space debris and marshmallow moons. Stays crunchy in milk for 400 years.",
+      "common_customer_complaints": [
+        "Broke three alien molars",
+        "Marshmallows started orbiting the milk bowl"
+      ],
+      "interactive_components_hazards": "Eat slowly. May cause magnetic teeth.",
+      "item_specific_return_policy": "Returnable within 14 days if box is unopened."
+    },
+    {
+      "id": "cm-014",
+      "product_name": "Polymorphic Bacon Strips",
+      "category": "Meats",
+      "price_in_credits": 18.0,
+      "atomic_mass_stability": "Shape-shifting",
+      "description": "Bacon that changes flavor depending on what you're thinking about while cooking it.",
+      "common_customer_complaints": [
+        "Thought about my taxes, bacon tasted like paper",
+        "Bacon turned into sausage mid-flip"
+      ],
+      "interactive_components_hazards": "Maintain positive thoughts while frying.",
+      "item_specific_return_policy": "Returnable only if uncooked and in baseline pig form."
+    },
+    {
+      "id": "cm-015",
+      "product_name": "Solar Flare Sriracha",
+      "category": "Pantry / Condiments",
+      "price_in_credits": 9.99,
+      "atomic_mass_stability": "Thermally volatile",
+      "description": "Hot sauce brewed in the upper atmosphere of Venus. Scoville rating: 12,000,000.",
+      "common_customer_complaints": [
+        "Dissolved my porcelain plate",
+        "Breathed fire and set off spatial smoke detectors"
+      ],
+      "interactive_components_hazards": "Store in lead-lined bottles. Avoid contact with skin.",
+      "item_specific_return_policy": "No returns on opened bottles."
+    },
+    {
+      "id": "cm-016",
+      "product_name": "Bioluminescent Moon Grapes",
+      "category": "Produce",
+      "price_in_credits": 12.0,
+      "atomic_mass_stability": "Stable",
+      "description": "Grapes grown in zero-G lunar greenhouses. They float out of the bowl if not weighted down.",
+      "common_customer_complaints": [
+        "Grapes escaped into the ceiling fan",
+        "Too shiny to eat in the dark"
+      ],
+      "interactive_components_hazards": "Keep bowl covered with heavy napkin.",
+      "item_specific_return_policy": "Returnable if all grapes are retrieved from ceiling."
+    },
+    {
+      "id": "cm-017",
+      "product_name": "Dark Matter Espresso Beans",
+      "category": "Pantry / Beverages",
+      "price_in_credits": 24.5,
+      "atomic_mass_stability": "Ultra-dense",
+      "description": "Coffee beans so strong a single cup allows you to see 5 seconds into the future.",
+      "common_customer_complaints": [
+        "Saw myself spilling the coffee before I spilled it",
+        "Haven't slept since last leap year"
+      ],
+      "interactive_components_hazards": "Do not drink more than 1 shot per planetary cycle.",
+      "item_specific_return_policy": "Returnable only if beans remain unground."
+    },
+    {
+      "id": "cm-018",
+      "product_name": "Telepathic Tofu",
+      "category": "Produce / Meat Alternatives",
+      "price_in_credits": 6.2,
+      "atomic_mass_stability": "Stable",
+      "description": "Tofu that absorbs the exact flavor you wish it had. Requires active mental focus.",
+      "common_customer_complaints": [
+        "Got distracted, tasted like anxiety",
+        "Refused to absorb flavor from non-vegetarians"
+      ],
+      "interactive_components_hazards": "Clear your mind before cooking.",
+      "item_specific_return_policy": "Returnable within 7 days."
+    },
+    {
+      "id": "cm-019",
+      "product_name": "Interstellar Pop-Rocks (Supernova Edition)",
+      "category": "Candy / Snacks",
+      "price_in_credits": 4.5,
+      "atomic_mass_stability": "Highly reactive",
+      "description": "Popping candy that creates tiny sonic booms in your mouth.",
+      "common_customer_complaints": [
+        "Ears rang for two days",
+        "Scared my pet space-lizard"
+      ],
+      "interactive_components_hazards": "Do not mix with carbonated galaxy soda.",
+      "item_specific_return_policy": "Non-returnable."
+    },
+    {
+      "id": "cm-020",
+      "product_name": "Frozen Aurora Popsicles",
+      "category": "Frozen / Desserts",
+      "price_in_credits": 8.0,
+      "atomic_mass_stability": "Stable when frozen",
+      "description": "Popsicles crafted from compressed northern lights. Colors change as you lick.",
+      "common_customer_complaints": [
+        "Stained my tongue blue, green, and ultraviolet",
+        "Melted into a glowing puddle"
+      ],
+      "interactive_components_hazards": "Store below -20°C.",
+      "item_specific_return_policy": "Returnable if frozen solid."
+    },
+    {
+      "id": "cm-021",
+      "product_name": "Hyper-Cereal Marshmallow Clusters",
+      "category": "Pantry / Breakfast",
+      "price_in_credits": 6.5,
+      "atomic_mass_stability": "Stable",
+      "description": "100% marshmallow cereal bits with high sugar-to-mass ratio.",
+      "common_customer_complaints": [
+        "Instant sugar crash sent me into hyper-sleep",
+        "Kids started running up the walls"
+      ],
+      "interactive_components_hazards": "Keep away from hyperactive alien younglings.",
+      "item_specific_return_policy": "Returnable within 14 days."
+    },
+    {
+      "id": "cm-022",
+      "product_name": "Tentacle-Cut Kraken Jerky",
+      "category": "Meats / Snacks",
+      "price_in_credits": 16.99,
+      "atomic_mass_stability": "Stable, extra chewy",
+      "description": "Dried jerky from deep-space kraken reserves. Spicy, smoky, and slightly squirmy.",
+      "common_customer_complaints": [
+        "Jerky twitched while I was eating it",
+        "Too tough for standard human molars"
+      ],
+      "interactive_components_hazards": "Chew thoroughly before swallowing.",
+      "item_specific_return_policy": "Returnable if unopened."
+    },
+    {
+      "id": "cm-023",
+      "product_name": "Spectral Spikes (Ghost Pepper Variant)",
+      "category": "Produce",
+      "price_in_credits": 11.0,
+      "atomic_mass_stability": "Phase-shifting",
+      "description": "Peppers that pass through solid matter until bitten.",
+      "common_customer_complaints": [
+        "Pepper fell through my table",
+        "Burnt a hole in my phantom stomach"
+      ],
+      "interactive_components_hazards": "Wear solid-phase gloves when chopping.",
+      "item_specific_return_policy": "Non-returnable if lost in floorboards."
+    },
+    {
+      "id": "cm-024",
+      "product_name": "Antimatter Energy Drink (Rad-Lime)",
+      "category": "Pantry / Beverages",
+      "price_in_credits": 4.99,
+      "atomic_mass_stability": "Reactive",
+      "description": "Gives you 72 hours of energy by annihilating tiny particles inside your gut.",
+      "common_customer_complaints": [
+        "Cleaned my entire space station at 3 AM",
+        "Heart beats in rhythm with galactic core"
+      ],
+      "interactive_components_hazards": "Do not shake can before opening.",
+      "item_specific_return_policy": "Unopened cans accepted within 7 days."
+    },
+    {
+      "id": "cm-025",
+      "product_name": "Chrono-Chocolates (Past & Future Box)",
+      "category": "Candy / Desserts",
+      "price_in_credits": 28.0,
+      "atomic_mass_stability": "Temporal variance",
+      "description": "Half the box tastes like your favorite childhood memory; the other half tastes like your next birthday.",
+      "common_customer_complaints": [
+        "Ate a future chocolate and found out I get fired",
+        "Tasted like nostalgia overload"
+      ],
+      "interactive_components_hazards": "Do not consume whole box in one sitting.",
+      "item_specific_return_policy": "Returnable only if temporal seals are intact."
+    },
+    {
+      "id": "cm-026",
+      "product_name": "Glitch-Flavored Potato Chips",
+      "category": "Snacks",
+      "price_in_credits": 5.25,
+      "atomic_mass_stability": "Glauconite distortion",
+      "description": "Chips that change texture from crispy to liquid to solid as you chew.",
+      "common_customer_complaints": [
+        "Thought my mouth lagged",
+        "Tasted like static electricity"
+      ],
+      "interactive_components_hazards": "May cause temporary sensory stuttering.",
+      "item_specific_return_policy": "Returnable within 30 days."
+    },
+    {
+      "id": "cm-027",
+      "product_name": "Proton Cheese Wheel",
+      "category": "Dairy / Pantry",
+      "price_in_credits": 32.0,
+      "atomic_mass_stability": "Positively charged",
+      "description": "A dense cheese wheel that emits a warm, comfortable yellow radiation glow.",
+      "common_customer_complaints": [
+        "Melted through plastic wrapper",
+        "Attracted small metal utensils"
+      ],
+      "interactive_components_hazards": "Store in lead cheese-keeper.",
+      "item_specific_return_policy": "Returnable with 95% mass."
+    },
+    {
+      "id": "cm-028",
+      "product_name": "Quantum Doughnuts",
+      "category": "Bakery / Snacks",
+      "price_in_credits": 15.0,
+      "atomic_mass_stability": "Entangled pairs",
+      "description": "Sold in pairs of two. Eating one automatically satisfies the hunger of your paired doughnut partner.",
+      "common_customer_complaints": [
+        "Friend ate the chocolate one and I got full on vanilla",
+        "Partner was on another planet and stole my snack"
+      ],
+      "interactive_components_hazards": "Keep paired boxes together until consumption.",
+      "item_specific_return_policy": "Must return both entangled doughnuts together."
+    },
+    {
+      "id": "cm-029",
+      "product_name": "Hydro-Gel Space Cucumbers",
+      "category": "Produce",
+      "price_in_credits": 4.25,
+      "atomic_mass_stability": "Stable, 99% liquid",
+      "description": "Extremely hydrating alien cucumbers harvested from water-worlds.",
+      "common_customer_complaints": [
+        "Exploded into water when sliced too fast",
+        "Tasted like raw rain"
+      ],
+      "interactive_components_hazards": "Slice gently with sharp blade.",
+      "item_specific_return_policy": "Returnable if solid."
+    },
+    {
+      "id": "cm-030",
+      "product_name": "Plasma-Charred Ribs",
+      "category": "Meats",
+      "price_in_credits": 52.0,
+      "atomic_mass_stability": "Thermally active",
+      "description": "Pre-cooked ribs charred over open plasma vents. Fall-off-the-bone tender.",
+      "common_customer_complaints": [
+        "Burnt my tongue through the foil wrapper",
+        "Smells like ozone and barbecue"
+      ],
+      "interactive_components_hazards": "Reheat with caution.",
+      "item_specific_return_policy": "No returns once unwrapped."
+    }
+  ]
+}
