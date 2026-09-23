@@ -52,7 +52,7 @@ const NAV_BUTTON_BASE =
 const EXTERNAL_LINKS = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/james-huynh-ai/", color: "bg-sky" },
   { label: "GitHub", href: "https://github.com/jameshuynh-dev", color: "bg-mint" },
-  { label: "Resume Site", href: "https://jameshuynh-dev.github.io/site/", color: "bg-pink" },
+  { label: "Resume Site", href: "https://www.dearhuynh.com", color: "bg-pink" },
 ] as const;
 
 export default function Home() {
@@ -136,14 +136,11 @@ function ProjectInfo() {
         <h1 className="inline-block rotate-[-1deg] border-3 border-ink bg-yellow px-6 py-3 text-4xl font-black tracking-tight text-ink shadow-hard sm:text-5xl">
           PROJECT INFORMATION
         </h1>
-        <p className="mt-4 max-w-2xl text-lg font-medium text-white">
-          Cosmo Mart | Interdimensional Superstore &amp; AI Customer Service
-        </p>
       </header>
 
       <InfoCard
         color="bg-yellow"
-        title="🚀 Cosmo Mart: An Interdimensional Superstore & AI Customer Service"
+        title="🚀 Cosmo Mart | Interdimensional Superstore & AI Customer Service"
       >
         <p>
           Welcome to Cosmo Mart! This interactive web storefront represents a
@@ -151,38 +148,63 @@ function ProjectInfo() {
           to humans and aliens alike.
         </p>
         <p>
-          The project features Gleb! An underpaid, mildly exhausted
-          alien customer service representative powered by an in-memory RAG
+          The project features Gleb, an underpaid, mildly exhausted alien
+          customer service representative powered by an in-memory RAG
           (Retrieval-Augmented Generation) architecture.
         </p>
       </InfoCard>
 
-      <InfoCard
-        color="bg-lavender"
-        title="💡 Origin Story: From Customer Support Insights to Code"
-      >
+      <InfoCard color="bg-pink" title="What can you ask Gleb about?">
+        <p>
+          Since Gleb is powered by RAG architecture, his answers about the
+          store are pulled from Cosmo Mart&rsquo;s knowledge base. If something
+          isn&rsquo;t on file, he won&rsquo;t make it up. You can ask him about:
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            <strong>Products:</strong> Anything on the shelves. Prices,
+            descriptions, atomic mass stability, hazard warnings, item-specific
+            return policies, and common customer complaints.{" "}
+            <em>&ldquo;Is the Portable Wormhole safe to use?&rdquo;</em>
+          </li>
+          <li>
+            <strong>Store Policies:</strong> Returns, the Corporate Bio-Hazard
+            Waiver, payment methods, store hours, the employee discount,
+            breakroom rules, and hazard escalation.{" "}
+            <em>&ldquo;What payment methods do you accept?&rdquo;</em>
+          </li>
+          <li>
+            <strong>Cosmo Mart:</strong> What the store is, who founded it,
+            and how long it&rsquo;s been open.{" "}
+            <em>&ldquo;Who owns this store?&rdquo;</em>
+          </li>
+          <li>
+            <strong>His Boss:</strong> Ask about his manager and watch him get
+            nervous. <em>&ldquo;What&rsquo;s your boss like?&rdquo;</em>
+          </li>
+          <li>
+            <strong>His Work Life:</strong> His shifts, his breaks, and his
+            coworkers. <em>&ldquo;How&rsquo;s work going?&rdquo;</em>
+          </li>
+        </ul>
+      </InfoCard>
+
+      <InfoCard color="bg-lavender" title="Project Story">
         <p>
           A few months ago, a friend&rsquo;s sister described her workflow at
           T-Mobile. She explained how an internal AI-powered assistant
           listened to customer calls, searched company databases, and
           surfaced accurate policy options in real-time to help
-          representatives answer queries.
-        </p>
-        <p>
-          Fascinated by the technology, I dove into <em>AI Engineering</em> by
-          Chip Huyen and researched foundation models, vector math, and
-          practical AI engineering techniques. I realized I could replicate
-          this exact enterprise workflow using RAG (Retrieval-Augmented
-          Generation) a technique that connects LLMs to outside
-          knowledge bases to ground responses in verified company facts.
-        </p>
-        <p>
-          Cosmo Mart and Gleb were born as a full-stack demo to showcase this
-          architecture in action!
+          representatives answer queries. Interested in how this system
+          works, I took ideas I learned from <em>AI Engineering</em> by Chip
+          Huyen and researched foundation models, vector math, and practical
+          AI engineering techniques. I realized I could use Retrieval-Augmented
+          Generation (RAG) a technique that connects LLMs to outside knowledge
+          bases to ground responses in verified company facts.
         </p>
       </InfoCard>
 
-      <InfoCard color="bg-mint" title="🌟 Key Features">
+      <InfoCard color="bg-mint" title="Key Features">
         <ul className="list-disc space-y-2 pl-5">
           <li>
             <strong>Gleb AI Assistant:</strong> An AI customer service bot
@@ -198,7 +220,7 @@ function ProjectInfo() {
         </ul>
       </InfoCard>
 
-      <InfoCard color="bg-sky" title="🛠️ Tech Stack & Architecture">
+      <InfoCard color="bg-sky" title="Tech Stack & Architecture">
         <div className="space-y-4">
           <div>
             <h3 className="mb-1 font-black uppercase tracking-wide">
@@ -281,6 +303,24 @@ function ProjectInfo() {
             </ul>
           </div>
         </div>
+      </InfoCard>
+
+      <InfoCard color="bg-coral" title="My Socials">
+        <ul className="list-disc space-y-1 pl-5">
+          {EXTERNAL_LINKS.map((link) => (
+            <li key={link.label}>
+              <strong>{link.label}:</strong>{" "}
+              <a
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="break-all underline"
+              >
+                {link.href}
+              </a>
+            </li>
+          ))}
+        </ul>
       </InfoCard>
     </main>
   );
