@@ -4,27 +4,23 @@ Welcome to **Cosmo Mart**! This interactive web storefront represents a surreal 
 
 The project features **Gleb**, an underpaid, mildly exhausted alien customer service representative powered by an in-memory **RAG (Retrieval-Augmented Generation)** architecture.
 
-🛸ACCESS THE DEMO HERE 🛸 https://cosmo-mart-alpha.vercel.app/
+ACCESS THE DEMO HERE: https://cosmo-mart-alpha.vercel.app/
 ---
 
-## 💡 Origin Story: From Customer Support Insights to Code
+## Project Story
 
-A few months ago, a friend’s sister described her workflow at T-Mobile. She explained how an internal AI-powered assistant listened to customer calls, searched company databases, and surfaced accurate policy options in real-time to help representatives answer queries.
-
-Fascinated by the technology, I dove into *AI Engineering* by Chip Huyen and researched foundation models, vector math, and practical AI engineering techniques. I realized I could replicate this exact enterprise workflow using **Retrieval-Augmented Generation (RAG)** a technique that connects LLMs to outside knowledge bases to ground responses in verified company facts. 
-
-Cosmo Mart and Gleb were born as a full-stack demo to showcase this architecture in action!
+A few months ago, a friend’s sister described her workflow at T-Mobile. She explained how an internal AI-powered assistant listened to customer calls, searched company databases, and surfaced accurate policy options in real-time to help representatives answer queries. Interested in how this system works, I took ideas I learned from AI Engineering by Chip Huyen and researched foundation models, vector math, and practical AI engineering techniques. I realized I could use **Retrieval-Augmented Generation (RAG)** a technique that connects LLMs to outside knowledge bases to ground responses in verified company facts. 
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 * **Gleb AI Assistant:** An AI customer service bot using RAG to answer queries on return policies, biohazard waivers, store hours, breakroom rules, hazard escalation, and product safety.
 * **Neubrutalist UI:** A high-contrast, color-coded grid displaying all available Cosmo Mart inventory, complete with hazard warnings and interactive chat triggers.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 ### **Frontend & UI**
 * **Framework:** Next.js 15 (App Router, TypeScript)
@@ -48,5 +44,5 @@ Cosmo Mart and Gleb were born as a full-stack demo to showcase this architecture
 
 ### **My Socials**
 * LinkedIn: https://www.linkedin.com/in/james-huynh-ai/
-* Resume Site: https://jameshuynh-dev.github.io/site/
+* Resume Site: https://www.dearhuynh.com
 * Github: https://github.com/jameshuynh-dev
