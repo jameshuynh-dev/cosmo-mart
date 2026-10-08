@@ -284,22 +284,6 @@ function ProjectInfo() {
               </li>
             </ul>
           </div>
-
-          <div>
-            <h3 className="mb-1 font-black uppercase tracking-wide">
-              AI-Assisted Development Workflow
-            </h3>
-            <ul className="list-disc space-y-1 pl-5">
-              <li>
-                <strong>Claude Code:</strong> Agentic code generation, project
-                scaffolding, and iterative file edits.
-              </li>
-              <li>
-                <strong>Gemini:</strong> Code architecture cross-verification,
-                rapid technical research, and asset generation.
-              </li>
-            </ul>
-          </div>
         </div>
       </InfoCard>
 

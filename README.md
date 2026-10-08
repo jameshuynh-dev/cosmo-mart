@@ -1,8 +1,8 @@
-# 🚀 Cosmo Mart | Interdimensional Superstore & AI Customer Service
+# Cosmo Mart | RAG-Powered AI Customer Service Chatbot
 
-Welcome to **Cosmo Mart**! This interactive web storefront represents a surreal interdimensional superstore selling mildly dangerous items to humans and aliens alike.
+Welcome to **Cosmo Mart**! This interactive web storefront represents an imaginary alien superstore selling space goods.
 
-The project features **Gleb**, an underpaid, mildly exhausted alien customer service representative powered by an in-memory **RAG (Retrieval-Augmented Generation)** architecture.
+This project features **Gleb**, a little alien customer service representative powered by **RAG (Retrieval-Augmented Generation)** architecture!
 
 ACCESS THE DEMO HERE: https://cosmo-mart-alpha.vercel.app/
 
@@ -50,10 +50,6 @@ A few months ago, a friend's sister described her workflow at T-Mobile. She expl
 ### **Deployment & DevOps**
 * **Hosting:** Vercel (CI/CD via GitHub integration, Serverless edge deployment)
 * **Version Control:** Git / GitHub
-
-### **AI-Assisted Development Workflow**
-* **Claude Code:** Agentic code generation, project scaffolding, and iterative file edits.
-* **Gemini:** Code architecture cross-verification, rapid technical research, and asset generation.
 
 ---
 
