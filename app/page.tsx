@@ -30,7 +30,7 @@ const NEON_LOGO_LETTERS: { char: string; color: "blue" | "red" | "yellow" | null
 
 function NeonLogo() {
   return (
-    <h1 className="neon-sign inline-block text-4xl tracking-wide sm:text-5xl">
+    <h1 className="neon-sign inline-block text-5xl tracking-wide sm:text-6xl">
       {NEON_LOGO_LETTERS.map((letter, i) =>
         letter.color ? (
           <span key={i} className={`neon-letter neon-${letter.color}`}>

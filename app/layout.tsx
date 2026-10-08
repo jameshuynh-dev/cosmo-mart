@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Monoton } from "next/font/google";
+import { Geist, Geist_Mono, Tilt_Neon } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const monoton = Monoton({
+const tiltNeon = Tilt_Neon({
   variable: "--font-neon",
   weight: "400",
   subsets: ["latin"],
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${monoton.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${tiltNeon.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
