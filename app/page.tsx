@@ -140,17 +140,15 @@ function ProjectInfo() {
 
       <InfoCard
         color="bg-yellow"
-        title="🚀 Cosmo Mart | Interdimensional Superstore & AI Customer Service"
+        title="Cosmo Mart | RAG-Powered AI Customer Service Chatbot"
       >
         <p>
-          Welcome to Cosmo Mart! This interactive web storefront represents a
-          surreal interdimensional superstore selling mildly dangerous items
-          to humans and aliens alike.
+          Welcome to Cosmo Mart! This interactive web storefront represents an
+          imaginary alien superstore selling space goods.
         </p>
         <p>
-          The project features Gleb, an underpaid, mildly exhausted alien
-          customer service representative powered by an in-memory RAG
-          (Retrieval-Augmented Generation) architecture.
+          This project features Gleb, a little alien customer service
+          representative powered by RAG architecture!
         </p>
       </InfoCard>
 
