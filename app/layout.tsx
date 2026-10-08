@@ -21,7 +21,7 @@ const monoton = Monoton({
 export const metadata: Metadata = {
   title: "Cosmo Mart",
   description:
-    "Surreal, mildly dangerous goods for humans and aliens alike. Powered by Gleb.",
+    "Galactic grocery store selling space goods. Powered by Gleb.",
   icons: { icon: "/gleb.png" },
 };
 

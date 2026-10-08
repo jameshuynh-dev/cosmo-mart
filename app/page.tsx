@@ -337,7 +337,7 @@ function Storefront() {
           </span>
         </div>
         <p className="mt-4 max-w-xl text-lg font-medium text-white">
-          Surreal, mildly dangerous goods for humans and aliens alike. Returns
+          Galactic grocery store selling space goods. Returns
           require 95% of original atomic mass. Try asking Gleb about products, return policies, and Gleb's work life!
         </p>
       </header>
