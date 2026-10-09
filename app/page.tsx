@@ -397,7 +397,7 @@ function ChatWidget() {
         <div>
           <p className="font-black text-ink">Gleb</p>
           <p className="text-xs font-semibold text-ink opacity-70">
-            Customer Service, allegedly
+            Customer Service Agent
           </p>
         </div>
         <button
